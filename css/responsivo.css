@@ -1,0 +1,668 @@
+
+
+/*.menu-mobile{
+  display:none;
+}*/
+
+
+@media(min-width:300px){
+    body{
+        font-family: "Gotham";
+        font-size:1em;
+		background-color:;
+    }
+	
+	.slick-slide img {
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+}
+	
+	.slick-prev {
+    z-index: 1;
+		left: 0;
+}
+
+	.slick-track {
+	}
+	
+	.single-item{
+		position:relative;
+	}
+	
+	.single-item img{
+		/*max-height:750px;*/
+	}
+	#index{
+	margin-top: 10%;
+	}
+	
+	.single-banner1{
+	background-image:url(../images/responsivo/c1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+	}
+	
+	.single-banner2{
+	background-image:url(../images/responsivo/c2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+	}
+	
+	.single-banner3{
+	background-image:url(../images/responsivo/c3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+	}
+	
+	.slick-next {
+    position: absolute;
+    right: 5;
+    width: auto;
+}
+	
+	#vantagens{
+		position:relative;
+		height: 43%;
+	}
+
+    /*header{
+      background-color:#2a285f;
+    }*/
+	
+	.barra-header{
+		background-color:#2a285f;
+		height:10%;
+		position: fixed;
+    	width: 100%;
+    	top: 0;
+		z-index:2;
+	}
+	
+
+    nav{
+        width:100%;
+        height:10em;
+    }
+
+    
+    .logo{
+        padding-left:11%;
+        width:50%;
+    }
+	
+	.logo2{
+		width:34%;
+		padding-top:0.5em;
+	}
+
+
+	.menu-abrir{
+		font-size: 1em;
+    	float: right;
+    	margin-right: 11%;
+    	margin-top: 5%;
+	}
+
+  .menu-fechar{
+    position: absolute;
+    right: 5%;
+	  top: 2%;
+    font-size: 1em;
+  }
+	
+	.menu-fechar:before{
+		content:"M";
+		font-family: "Elegant";
+		font-size:2em;
+		color:black;
+		
+	}	
+
+    h1{
+        text-transform: uppercase;
+    }
+
+    h3{
+		font-family: "Gotham Black";
+        font-size:2em;
+        text-transform: uppercase;
+        padding-top:1.5em;
+    }
+
+    .espacamento{
+        padding-left:18%;
+        padding-right:12%;
+    }
+
+    .index{
+        text-align: left;
+        /*padding-top:45%;
+        padding-bottom:30%;*/
+        font-size:1.8em;
+        color:white;
+        font-family:"Gotham Bold";
+        font-weight:bold;
+       /* background-color:#226CC9;
+        background-image:url(../images/Imagens_Inovar-09.png);
+        background-repeat: no-repeat;
+        background-position: center;*/
+    }
+	
+	.chamada{
+		position:absolute;
+		top:5em;
+		left:11%;
+		right: 15%;
+	}
+	
+	.engrenagem{
+		padding-bottom:1em;
+		width:100%;
+		text-align:center;
+	}
+	
+	.engrenagem img{
+		text-align:center;
+		    width: 90%;
+	}
+
+    spam{
+        color:#55A9D8;
+    }
+	
+	hr{
+		display:none;
+	}
+    .saiba-mais{
+        position: absolute;
+		top: 25em;
+		left: 11%
+    }
+	
+	.single-item img{
+		width:100%;
+	}
+
+    .botao{
+        width:50%;
+        height:7%;
+        font-size:0.9em;
+        border-radius: 40px;
+        border: solid 3px #55A9D8;
+        padding: 2px 3px;
+        background-clip: content-box; /* support: IE9+ */
+        background-color:#55A9D8;
+		color: #1c2e7f;
+    }
+
+    .titulo{
+        font-size:1.5em;
+        color: #1c2e7f;
+    	border-bottom: solid 2px #1c2e7f;
+        padding-bottom: 0.3em;
+        padding-top:8%;
+        font-family: "Gotham Black";
+    }
+
+    p{
+        margin-top:1em;
+		padding-bottom:2em;
+		font-size:1em;
+
+    }
+
+    #sobre{
+        background-color:#556ADB;
+		color:#2a285f;
+		padding-right: 11%;
+    	padding-left: 11%;
+		padding-top:14%;
+    }
+	
+	#sobre p{
+		
+	}
+
+    section{
+        padding-right:11%;
+        padding-left:11%;
+		padding-top: 14%;
+    }
+	
+	.portaria section{
+		padding-top:0;
+	}
+	
+	.servicos-img{
+		    width: 90%;
+    padding: 1em 0;
+	}
+
+    h2{
+        font-size:1.5em;
+        font-family: "Gotham Black";
+        padding-top:2em;
+        color:#536ADB;
+        text-transform: uppercase;
+    }
+
+    .servicos{
+		  color: white;
+    }
+
+    .borda{
+        border-radius: 0 40px 0 0;
+    }
+
+    .portaria{
+        background-color:#556adb;
+    }
+
+    .services{
+        font-size:0.9em;
+        margin-top:;
+    }
+
+    .informacoes{
+		padding-top:5em;
+        display:flex;
+		justify-content: space-between;
+    }
+
+	.informacoes h1{
+		font-size:1em;
+		font-family: "Gotham Black";
+	}
+
+	.informacoes p{
+		font-size: 0.5em;
+    	margin-top: 0.5em;
+		text-transform: uppercase;
+	}
+
+    .especificacoes{
+
+    }
+
+    .spam espacamento{
+        font-size:1em;
+        color:white;
+    }
+
+	.agende{
+		border-radius: 40px;
+    	font-size: 0.78em;
+    	padding: 0.8em 2em;
+    	background-color: inherit;
+    	text-transform: uppercase;
+    	border: 1.3px solid white;
+    	color: white;
+    	margin-top: 1em;
+		margin-bottom: 2em;
+		font-family:"Gotham Book";
+		cursor:pointer;
+	}
+
+    .zeladoria{
+        background-color:#2a285f;
+    }
+
+    .limpeza{
+        background-color:#1c2e7f;
+
+    }
+
+    .valores{
+        margin-top:0.8em;
+		color: #536ADB;
+    	font-size: 1em;
+    }
+
+    .valores:last-child{
+        padding-bottom:2em;
+    }
+
+    .missao{
+        background-color:#2A285F;
+		padding-right: 11%;
+    	padding-left: 11%;
+    }
+
+    #servicos{
+        background-color:white;
+        padding-bottom:1em;
+
+    }
+	.servicos section{
+		padding-top: 0;
+	}
+	
+	.vantagens{
+		padding-top: 4em;
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+		text-align: center;
+	}
+	
+	.vantagens li{
+		font-size:1em;
+		margin-bottom:2em;
+	}
+	
+	.vantagens p{
+		color: #1c2e7f;
+	}
+
+    #contato{
+        background-color:white;
+    }
+
+    input[name],
+    input[type="email"],
+    textarea{
+        font-family: inherit;
+        font-size: 1em;;
+        width:100%;
+        padding:2em 0.8em;
+        margin-top:1em;
+        border-radius:40px;
+        border:2px solid #55A9D8;
+    }
+
+    .formulario{
+        margin: 2em 0;
+    }
+
+	#localizacao{
+		background-image:url(../images/mapa.png);
+		background-position: center top;
+    	background-size: 100% auto;
+		height:50%;
+		background-repeat: no-repeat;
+	}
+	
+	.localizao-img {
+
+    float: left;
+    width: 10%;
+    padding-right: 0.5em;
+
+}
+	
+	.endereco:before{
+		content: "5";
+		float: right;
+		font-size: 3em;
+		font-family: "Elegant";
+	}
+
+	.endereco{
+		border-radius: 20px;
+    	background-color: #1c2e7f;
+    	padding: 2em 0.8em;
+    	font-size: 0.7em;
+    	color: white;
+    	margin-top: 4em;
+	}
+
+	.endereco p{
+		margin-top: 0.5em;
+    	padding: 0;
+	}
+
+    .galeria{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .galeria li{
+       width:50%;
+        display:inline;
+    }
+
+    .galeria li img{
+        width:100%;
+        /*height:100%;
+		max-height: 300px;*/
+    }
+
+    footer{
+        background-color:#2a285f;
+        height:;
+        color:white;
+    }
+
+    #rodape{
+        padding-top:2.5em;
+        display:flex;
+        color:white;
+		justify-content: space-between;
+		padding-bottom:1em;
+    }
+
+    #rodape ul{
+        width:50%;
+        text-align:right;
+        font-size:0.8em;
+		border-right: 2px solid white;
+    	padding-right: 1em;
+    }
+	
+	#rodape a{
+		color:white;
+		text-decoration: none;
+	}
+
+    .linha-vertical {
+    height: auto;
+    border-right: 2px solid white;
+    padding-left: 0.9em;
+    }
+
+    #rodape li{
+        padding-bottom:0.3em;
+        text-transform: uppercase;
+    }
+
+    .logo-rodape{
+       width:50%;
+    }
+
+    footer p{
+        text-align: center;
+		padding-bottom:0;
+		font-size: 0.8em;
+    }
+
+	.copyright{
+		padding-bottom:1em;
+	}
+
+    .copyright a{
+        color: #08c9ea;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 1116px) and (min-width: 300px)  {
+	.menu-mobile{
+      background-color:#556adb;
+      margin:0;
+      padding:1;
+      height:100%;
+      width:100%;
+      position:fixed;
+      z-index: 5;
+      top:0;
+      left:-110%;
+      transition: 0.3 ease-out;
+    }
+
+	.menu-responsivo{
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    padding-top: 1em;
+    text-align: center;
+	}
+
+  .menu-responsivo li{
+    border-bottom:4px solid #2a285f;
+	  padding-bottom: 2em;
+  }
+
+	.menu-responsivo li:last-child{
+		border-bottom: none;
+	}
+
+  .menu-responsivo li a{
+    text-decoration:none;
+    text-transform: uppercase;
+    color: #2a285f;
+  }
+	
+		.menu-abrir,
+	.menu-fechar{
+		background:none;
+		border:0;
+		outline: 0;
+		-webkit-appearance:none;
+		font-size:1.6em;
+	}
+
+	
+	.menu-abrir{
+		height: 0;
+		width: .75em;
+		padding-top: .125em;
+		border-top: .375em double white;
+		border-bottom: .125em solid white;
+		vertical-align: middle;
+		margin-top: 0.5em;	
+		text-indent: -999em;
+		
+	}
+
+    .menu-ativo .menu-mobile{
+      left:0;
+    }
+
+}
+
+
+@media(min-width:650px){
+	
+	
+	body{
+		background-color:;
+		font-size:1em;
+	}
+	
+	.logo {
+    width: 30%;
+	}
+	
+	.barra-header {
+    height: 8%;
+	}
+		
+	footer{
+	}
+	
+	.servicos {
+
+	}
+	
+	
+	.chamada {
+		padding-right:20%;
+		top: 8em;
+	}
+	
+	.logo-rodape {
+    	width: 20%;
+	}
+	
+	.botao {
+    width: 25%;
+    height: 3%;
+	border: solid 2px #55A9D8;	
+	}
+	
+	.logo2{
+		width:23%;
+	}
+	
+	.localizao-img{
+		width: 5%;
+	}
+	
+	section {
+    padding-top: 9%;
+}
+	
+	#sobre{
+		padding-top: 9%;
+	}
+	
+	#vantagens{
+		height: 30%;
+	}
+	
+		.single-banner1{
+	background-image:url(../images/responsivo/t1.png);
+	}
+	
+	.single-banner2{
+	background-image:url(../images/responsivo/t2.png);
+	}
+	
+	.single-banner3{
+	background-image:url(../images/responsivo/t3.png);
+	}
+	
+	#index {
+    max-height: 500px;
+}
+}
+
+@media (min-width:840px){
+
+#index {
+
+    	max-height: 550px;
+	margin-top: 9%;
+
+}
+}
+
+@media (min-width:917px){
+
+#index {
+
+    	max-height: 600px;
+	margin-top: 8%;
+
+}
+}
+
+@media (min-width:1000px){
+
+
+#index {
+
+    max-height: 650px;
+
+}
+}
+
+@media not all and (max-width: 1116px) {
+    .menu-abrir,
+    .menu-fechar {
+        display: none;
+    }
+}

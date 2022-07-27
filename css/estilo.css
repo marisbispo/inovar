@@ -1,0 +1,334 @@
+@font-face{
+    font-family:"Gotham Book";
+    src:url(fonts/GothamBook.ttf);
+}
+
+@font-face{
+    font-family:"Gotham Medium";
+    src:url(fonts/GothamMedium_0.ttf);
+    /*font-weight:400;*/
+}
+
+@font-face{
+    font-family:"Gotham Bold";
+    src:url(fonts/GothamBold.ttf);
+    font-weight:600;
+}
+
+@font-face{
+    font-family:"Gotham Black";
+    src:url(fonts/GothamBlack.otf);
+    font-weight:800;
+}
+
+
+@media(min-width:1117px){
+    
+    body {
+    font-family: "Gotham Book";
+    }
+	
+	#index{
+		margin-top:4%;
+		max-height: 340px;
+	}
+	
+	.chamada{
+	    top: 4em;
+	}
+	
+	.logo {
+			width: 20%;
+			padding-left: 11%;
+			max-width: 326px;
+	}
+	
+	.logo2 {
+    width: 8%;
+}
+
+	.menu-mobile ul{
+		display: flex;
+		justify-content: flex-end;
+		position: fixed;
+		right: 15%;
+		top: 1.5em;
+		z-index:2;
+	}
+
+	.menu-mobile {
+		height: auto;
+	}
+
+	.menu-mobile li a{
+		color:white;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+
+	.menu-mobile li{
+		padding-right:0.8em;
+	}
+
+	.botao {
+		text-transform: uppercase;
+		width: 10%;
+		height: 6%;
+		cursor:pointer;
+	}
+
+	.saiba-mais {
+		margin-bottom: 5%;
+		position: absolute;
+		right: 15%;
+		top: 25em;
+	}
+	
+	
+
+    	.single-banner1{
+	background-image:url(../images/responsivo/p1.png);
+	}
+	
+	.single-banner2{
+	background-image:url(../images/responsivo/p2.png);
+	}
+	
+	.single-banner3{
+	background-image:url(../images/responsivo/p3.png);
+	}
+
+	.index{
+		/*padding-top: 25%;
+		padding-bottom: 10%;*/
+		font-size: 2.3em;
+	}
+	.single-item{
+		max-height: 700px;
+	}
+
+	.chamada{
+		width:30%;
+	}
+
+	section {
+		padding-right: 11%;
+		padding-left: 11%;
+		padding-top:0;
+	}
+
+	.logo-rodape {
+		width: 15%;
+	}
+
+	.missao{
+		width:50%;
+	}
+
+	.missao ul{
+		padding-top: 8em;
+		width: 80%;
+		padding-left: 10%;
+	}
+	
+	#servicos{
+	    margin-top: 5%;
+	}
+
+	#servicos-missao{
+		display:flex;
+		margin-top: 5%;
+	}
+
+	#sobre p{
+		width: 80%;
+	}
+
+
+	#sobre{
+		width:50%;
+		padding-top:6%;
+		background-image: url(../images/engrenagens.png);
+		background-repeat: no-repeat;
+		background-position: top 70% right 5%;
+		background-size: 25%;
+
+	}
+	
+	.servicos-img{
+		max-width: 25%;
+		padding: 1em 0;
+	}
+	.engrenagem{
+		display:none;
+	}
+	.valores p{
+		 color: #536ADB;
+	}
+
+	hr{
+		border-color: #536ADB;
+		width:78%;
+		position:absolute;
+		display:block;
+
+	}
+
+	.titulo:first{
+		border-bottom: none;
+	}
+
+	.borda{
+		border:none;
+	}
+	
+	.galeria li img {
+    max-height: none;
+        float: left;
+}
+	
+	.localizao-img{
+		width: 2.3%;
+	}
+	
+	.endereco {
+padding: 1em 0.8em 2em 0.8em;
+}
+	
+	img.endereco{
+		vertical-align:middle;
+	}
+	
+	.endereco:before{
+		content: "5";
+		float: right;
+		font-size: 3em;
+		font-family: "Elegant";
+	}
+
+	footer{
+		max-height:;
+	}
+}
+
+@media (min-width:1118px){
+       
+    
+
+.single-item{
+    max-height:420px;
+}
+
+
+}
+
+@media (min-width:1313px){
+    #index{
+        margin-top:2%;
+    }
+    
+    #servicos-missao{
+        margin-top:6%;
+    }
+}
+
+@media (min-width:1450px){
+    
+    #servicos-missao{
+        margin-top:11%;
+    }
+}
+
+@media(min-width:1600px){
+    
+    .single-item{
+    max-height:500px;
+}
+
+.chamada {
+    top: 6em;
+}
+
+.missao ul{
+    padding-top:9em;
+}
+
+.saiba-mais{
+    top:28em;
+}
+    
+}
+
+@media(min-width:1675px){
+    
+    .missao ul {
+    padding-top: 10em;}
+    
+}
+
+@media (min-width:1750px){
+    #servicos-missao {
+    margin-top: 14%;
+}
+
+#sobre{
+        background-size:23%;
+    }
+}
+
+@media(min-width:1860px){
+    
+    .missao ul {
+    padding-top: 10em;
+        
+    }
+    
+    #sobre{
+        background-position: top 89% right 5%; 
+    }
+    
+}
+
+
+@media(min-width:1900px){
+    
+    .menu-mobile ul {
+    top: 2em;
+    }
+    
+    .paragrafo-sobre p{
+
+margin-top: 2em;
+}
+
+.missao ul {
+    padding-top: 11em;
+}
+}
+
+@media(min-width:1915px){
+    
+    .agende{
+        padding: 1.4em 2em 1.4em 2em;
+    }
+
+}
+
+
+@media(min-width:1915px){
+
+    
+    .single-item{
+max-height:700px;
+}
+
+}
+
+@media(min-width:1971px){
+    
+    #sobre{
+        background-size:20%;
+    }
+    
+   
+}

@@ -1,0 +1,54 @@
+	@font-face{
+		font-family:"Elegant";
+		src:url(fonts/ElegantIcons.ttf);
+		}
+
+			.slick-prev:before, .slick-next:before {
+		font-family: "Elegant";
+			}
+
+			.slick-next::before {
+		content: "5";
+				color:blue;
+					font-size: 6rem;
+	}
+
+
+			.slick-prev:before {
+		content: '4';
+				color:blue;
+					font-size: 6rem;
+	}
+			.center{
+				padding:1em;
+			}
+
+			.slide{
+				/*display: flex;
+				flex-direction: column;
+				padding: 0 3em;
+				align-items: center;
+				justify-content: space-between;*/
+				max-height:300px;
+				text-align:center;
+			}
+		.slick-prev {
+		left: 1px;
+			z-index:999;
+	}
+
+			.slick-next{
+				right:70px;
+			}
+
+			.slick-prev, .slick-next{
+				top:20%;
+			}
+
+	.slick-slide img{
+			width: 100%;
+		max-width: 234px;
+		}
+
+.slick-prev .slick-arrow{
+}
